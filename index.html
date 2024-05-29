@@ -1,0 +1,116 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Registration Form</h2>
+      <div class="div1">
+        <div class="child1">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" class="text" placeholder="First Name" />
+        </div>
+        <div class="child1">
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            name=""
+            id="lname"
+            class="text"
+            placeholder="Last Name"
+          />
+        </div>
+      </div>
+      <div class="div1">
+        <div class="child1">
+          <label for="brt"> Birthday</label>
+          <input
+            type="text"
+            name=""
+            id="brt"
+            class="text"
+            placeholder="Enter Your Birthday"
+          />
+        </div>
+        <div class="child1 button">
+          Gender
+          <div>
+            <input class="btn" type="radio" name="gender" id="male" /><label
+              for="male"
+              >Male</label
+            >
+            <input class="btn" type="radio" name="gender" id="female" /><label
+              for="female"
+              >Female</label
+            >
+          </div>
+        </div>
+      </div>
+      <div class="div1">
+        <div class="child1">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name=""
+            id="email"
+            class="text"
+            placeholder="Email"
+          />
+        </div>
+        <div class="child1">
+          <label for="phoneno">Phone No</label>
+          <input
+            type="text"
+            name=""
+            id="phoneno"
+            class="text"
+            placeholder="Enter your E-mail"
+          />
+        </div>
+      </div>
+      <div class="child1">
+        <!-- <label for="subject">Subject</label>
+        <input
+          type="text"
+          name=""
+          id="subject"
+          class="text"
+          placeholder="Chose subject"
+        /> -->
+
+        <div class="slect">
+<label for="subject">Chose Subject</label>
+<div>
+    <select name="" id="" class="text">
+   <option value="math">Math</option>
+   <option value="urdu">Urdu</option>
+   <option value="computer">Computer</option>
+   <option value="science">Science</option>
+   <option value="english">English</option>
+</select>
+</div>
+      </div>
+      <div>
+        <button class="btn1" id="btn" onclick="subment()">Subment</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
